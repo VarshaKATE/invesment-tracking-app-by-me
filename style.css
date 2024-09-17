@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7F2;
+    
+}
+
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#E4DFDA ;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-image: url(./img/bank.avif);
+}
+
+h1,h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+form input{
+    padding: 10px 20px;
+    width: 150px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color:#6D2E46 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+form button:hover{
+    background-color:#A26769 ;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th,td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.chart-container{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+canvas{
+    max-width: 100%;
+}
